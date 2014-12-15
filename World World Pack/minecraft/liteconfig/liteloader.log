@@ -1,0 +1,217 @@
+[05:51:59] [main/INFO]: LiteLoader 1.7.10_04 starting up...
+[05:51:59] [main/INFO]: Java reports OS="windows 7"
+[05:51:59] [main/INFO]: Enumerating class path...
+[05:51:59] [main/INFO]: Class path separator=";"
+[05:51:59] [main/INFO]: Class path entries=(
+   classpathEntry=J:/MultiMC5/jars/NewLaunch.jar
+)
+[05:51:59] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[05:51:59] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods]
+[05:51:59] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10]
+[05:51:59] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[05:51:59] [main/INFO]: Discovering tweaks on class path...
+[05:51:59] [main/INFO]: Discovering valid mod files in folder J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods
+[05:51:59] [main/INFO]: Considering valid mod file: J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\mod_noteblockdisplay_1.3.2_mc1.7.10.litemod
+[05:51:59] [main/INFO]: Adding newest valid mod file 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\mod_noteblockdisplay_1.3.2_mc1.7.10.litemod' at revision 4.0000
+[05:51:59] [main/INFO]: Discovering valid mod files in folder J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10
+[05:51:59] [main/INFO]: Searching for tweaks in 'Baubles-1.7.10-1.0.1.8.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\Baubles-1.7.10-1.0.1.8.jar'
+[05:51:59] [main/INFO]: Searching for tweaks in 'CodeChickenLib-1.7.10-1.1.1.105-universal.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\CodeChickenLib-1.7.10-1.1.1.105-universal.jar'
+[05:51:59] [main/INFO]: Searching for tweaks in 'ForgeMultipart-1.7.10-1.1.0.309-universal.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\ForgeMultipart-1.7.10-1.1.0.309-universal.jar'
+[05:51:59] [main/INFO]: Searching for tweaks in 'LibSandstone-1.0.0.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\LibSandstone-1.0.0.jar'
+[05:51:59] [main/INFO]: Searching for tweaks in 'MrTJPCore-1.7.10-1.0.2.4-universal.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\MrTJPCore-1.7.10-1.0.2.4-universal.jar'
+[05:51:59] [main/INFO]: Searching for tweaks in '[1.7.10]bspkrsCore-universal-6.14.jar'
+[05:51:59] [main/WARN]: Error parsing manifest entries in 'J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\1.7.10\[1.7.10]bspkrsCore-universal-6.14.jar'
+[05:51:59] [main/INFO]: Mod file 'mod_noteblockdisplay_1.3.2_mc1.7.10.litemod' provides classTransformer 'xaero.mods.noteblockdisplay.BlockActionPacketTransformer', adding to class loader
+[05:51:59] [main/INFO]: classTransformer 'xaero.mods.noteblockdisplay.BlockActionPacketTransformer' was successfully added
+[05:51:59] [main/INFO]: LiteLoader PREINIT complete
+[05:52:04] [main/INFO]: Injecting onstartupcomplete[x1] in func_71384_a in Minecraft
+[05:52:04] [main/INFO]: Injecting prerenderfbo[x1] in func_71411_J in Minecraft
+[05:52:04] [main/INFO]: Injecting postrenderfbo[x1] in func_71411_J in Minecraft
+[05:52:04] [main/INFO]: Injecting ontimerupdate[x1] in func_71411_J in Minecraft
+[05:52:04] [main/INFO]: Injecting onrender[x1] in func_71411_J in Minecraft
+[05:52:04] [main/INFO]: Injecting ontick[x1] in func_71411_J in Minecraft
+[05:52:04] [main/INFO]: Injecting updateframebuffersize[x1] in func_147119_ah in Minecraft
+[05:52:04] [main/INFO]: Injecting newtick[x1] in func_71407_l in Minecraft
+[05:52:04] [main/INFO]: Applying overlay com.mumfrey.liteloader.client.overlays.MinecraftOverlay to net.minecraft.client.Minecraft
+[05:52:04] [main/INFO]: MinecraftOverlayTransformer found INIT injection point, this is good.
+[05:52:04] [main/INFO]: Injecting onoutboundchat[x1] in func_71165_d in EntityClientPlayerMP
+[05:52:05] [main/INFO]: Injecting onc16packetclientstatus[x1] in func_148833_a in C16PacketClientStatus
+[05:52:05] [main/INFO]: Injecting onrenderchat[x1] in func_73830_a in GuiIngame
+[05:52:05] [main/INFO]: Injecting postrenderchat[x1] in func_73830_a in GuiIngame
+[05:52:05] [main/INFO]: Injecting onc00handshake[x1] in func_148833_a in C00Handshake
+[05:52:05] [main/INFO]: Injecting onc00packetloginstart[x1] in func_148833_a in C00PacketLoginStart
+[05:52:05] [main/INFO]: Injecting ons03packettimeupdate[x1] in func_148833_a in S03PacketTimeUpdate
+[05:52:07] [main/INFO]: Injecting ons34packetmaps[x1] in func_148833_a in S34PacketMaps
+[05:52:07] [Client thread/INFO]: Injecting onc15packetclientsettings[x1] in func_148833_a in C15PacketClientSettings
+[05:52:08] [Client thread/INFO]: Injecting renderfbo[x1] in func_147615_c in Framebuffer
+[05:52:08] [Client thread/INFO]: Injecting oncreateintegratedserver[x1] in <init> in IntegratedServer
+[05:52:21] [Client thread/INFO]: Injecting ons21packetchunkdata[x1] in func_148833_a in S21PacketChunkData
+[05:52:24] [Client thread/INFO]: Injecting ons3fpacketcustompayload[x1] in func_148833_a in S3FPacketCustomPayload
+[05:52:24] [Client thread/INFO]: Injecting onc17packetcustompayload[x1] in func_148833_a in C17PacketCustomPayload
+[05:52:24] [Client thread/INFO]: Injecting ons00packetkeepalive[x1] in func_148833_a in S00PacketKeepAlive
+[05:52:24] [Client thread/INFO]: Injecting ons01packetjoingame[x1] in func_148833_a in S01PacketJoinGame
+[05:52:24] [Client thread/INFO]: Injecting ons02packetchat[x1] in func_148833_a in S02PacketChat
+[05:52:24] [Client thread/INFO]: Injecting ons04packetentityequipment[x1] in func_148833_a in S04PacketEntityEquipment
+[05:52:24] [Client thread/INFO]: Injecting ons05packetspawnposition[x1] in func_148833_a in S05PacketSpawnPosition
+[05:52:24] [Client thread/INFO]: Injecting ons06packetupdatehealth[x1] in func_148833_a in S06PacketUpdateHealth
+[05:52:24] [Client thread/INFO]: Injecting ons07packetrespawn[x1] in func_148833_a in S07PacketRespawn
+[05:52:24] [Client thread/INFO]: Injecting ons08packetplayerposlook[x1] in func_148833_a in S08PacketPlayerPosLook
+[05:52:24] [Client thread/INFO]: Injecting ons09packethelditemchange[x1] in func_148833_a in S09PacketHeldItemChange
+[05:52:24] [Client thread/INFO]: Injecting ons0apacketusebed[x1] in func_148833_a in S0APacketUseBed
+[05:52:24] [Client thread/INFO]: Injecting ons0bpacketanimation[x1] in func_148833_a in S0BPacketAnimation
+[05:52:24] [Client thread/INFO]: Injecting ons0cpacketspawnplayer[x1] in func_148833_a in S0CPacketSpawnPlayer
+[05:52:24] [Client thread/INFO]: Injecting ons0dpacketcollectitem[x1] in func_148833_a in S0DPacketCollectItem
+[05:52:24] [Client thread/INFO]: Injecting ons0epacketspawnobject[x1] in func_148833_a in S0EPacketSpawnObject
+[05:52:24] [Client thread/INFO]: Injecting ons0fpacketspawnmob[x1] in func_148833_a in S0FPacketSpawnMob
+[05:52:24] [Client thread/INFO]: Injecting ons10packetspawnpainting[x1] in func_148833_a in S10PacketSpawnPainting
+[05:52:24] [Client thread/INFO]: Injecting ons11packetspawnexperienceorb[x1] in func_148833_a in S11PacketSpawnExperienceOrb
+[05:52:24] [Client thread/INFO]: Injecting ons12packetentityvelocity[x1] in func_148833_a in S12PacketEntityVelocity
+[05:52:24] [Client thread/INFO]: Injecting ons13packetdestroyentities[x1] in func_148833_a in S13PacketDestroyEntities
+[05:52:24] [Client thread/INFO]: Injecting ons14packetentity[x1] in func_148833_a in S14PacketEntity
+[05:52:24] [Client thread/INFO]: Injecting ons15packetentityrelmove[x1] in func_148833_a in S14PacketEntity$S15PacketEntityRelMove
+[05:52:24] [Client thread/INFO]: Injecting ons16packetentitylook[x1] in func_148833_a in S14PacketEntity$S16PacketEntityLook
+[05:52:24] [Client thread/INFO]: Injecting ons17packetentitylookmove[x1] in func_148833_a in S14PacketEntity$S17PacketEntityLookMove
+[05:52:24] [Client thread/INFO]: Injecting ons18packetentityteleport[x1] in func_148833_a in S18PacketEntityTeleport
+[05:52:24] [Client thread/INFO]: Injecting ons19packetentityheadlook[x1] in func_148833_a in S19PacketEntityHeadLook
+[05:52:24] [Client thread/INFO]: Injecting ons19packetentitystatus[x1] in func_148833_a in S19PacketEntityStatus
+[05:52:24] [Client thread/INFO]: Injecting ons1bpacketentityattach[x1] in func_148833_a in S1BPacketEntityAttach
+[05:52:24] [Client thread/INFO]: Injecting ons1cpacketentitymetadata[x1] in func_148833_a in S1CPacketEntityMetadata
+[05:52:24] [Client thread/INFO]: Injecting ons1dpacketentityeffect[x1] in func_148833_a in S1DPacketEntityEffect
+[05:52:24] [Client thread/INFO]: Injecting ons1epacketremoveentityeffect[x1] in func_148833_a in S1EPacketRemoveEntityEffect
+[05:52:24] [Client thread/INFO]: Injecting ons1fpacketsetexperience[x1] in func_148833_a in S1FPacketSetExperience
+[05:52:24] [Client thread/INFO]: Injecting ons20packetentityproperties[x1] in func_148833_a in S20PacketEntityProperties
+[05:52:24] [Client thread/INFO]: Injecting ons22packetmultiblockchange[x1] in func_148833_a in S22PacketMultiBlockChange
+[05:52:24] [Client thread/INFO]: Injecting ons23packetblockchange[x1] in func_148833_a in S23PacketBlockChange
+[05:52:24] [Client thread/INFO]: Injecting ons24packetblockaction[x1] in func_148833_a in S24PacketBlockAction
+[05:52:24] [Client thread/INFO]: PacketTransformer: Running transformer xaero.mods.noteblockdisplay.BlockActionPacketTransformer for gg
+[05:52:24] [Client thread/INFO]: Injecting ons25packetblockbreakanim[x1] in func_148833_a in S25PacketBlockBreakAnim
+[05:52:24] [Client thread/INFO]: Injecting ons26packetmapchunkbulk[x1] in func_148833_a in S26PacketMapChunkBulk
+[05:52:24] [Client thread/INFO]: Injecting ons27packetexplosion[x1] in func_148833_a in S27PacketExplosion
+[05:52:24] [Client thread/INFO]: Injecting ons28packeteffect[x1] in func_148833_a in S28PacketEffect
+[05:52:24] [Client thread/INFO]: Injecting ons29packetsoundeffect[x1] in func_148833_a in S29PacketSoundEffect
+[05:52:24] [Client thread/INFO]: Injecting ons2apacketparticles[x1] in func_148833_a in S2APacketParticles
+[05:52:24] [Client thread/INFO]: Injecting ons2bpacketchangegamestate[x1] in func_148833_a in S2BPacketChangeGameState
+[05:52:24] [Client thread/INFO]: Injecting ons2cpacketspawnglobalentity[x1] in func_148833_a in S2CPacketSpawnGlobalEntity
+[05:52:24] [Client thread/INFO]: Injecting ons2dpacketopenwindow[x1] in func_148833_a in S2DPacketOpenWindow
+[05:52:24] [Client thread/INFO]: Injecting ons2epacketclosewindow[x1] in func_148833_a in S2EPacketCloseWindow
+[05:52:24] [Client thread/INFO]: Injecting ons2fpacketsetslot[x1] in func_148833_a in S2FPacketSetSlot
+[05:52:24] [Client thread/INFO]: Injecting ons30packetwindowitems[x1] in func_148833_a in S30PacketWindowItems
+[05:52:24] [Client thread/INFO]: Injecting ons31packetwindowproperty[x1] in func_148833_a in S31PacketWindowProperty
+[05:52:24] [Client thread/INFO]: Injecting ons32packetconfirmtransaction[x1] in func_148833_a in S32PacketConfirmTransaction
+[05:52:24] [Client thread/INFO]: Injecting ons33packetupdatesign[x1] in func_148833_a in S33PacketUpdateSign
+[05:52:24] [Client thread/INFO]: Injecting ons35packetupdatetileentity[x1] in func_148833_a in S35PacketUpdateTileEntity
+[05:52:24] [Client thread/INFO]: Injecting ons36packetsigneditoropen[x1] in func_148833_a in S36PacketSignEditorOpen
+[05:52:24] [Client thread/INFO]: Injecting ons37packetstatistics[x1] in func_148833_a in S37PacketStatistics
+[05:52:24] [Client thread/INFO]: Injecting ons38packetplayerlistitem[x1] in func_148833_a in S38PacketPlayerListItem
+[05:52:24] [Client thread/INFO]: Injecting ons39packetplayerabilities[x1] in func_148833_a in S39PacketPlayerAbilities
+[05:52:24] [Client thread/INFO]: Injecting ons3apackettabcomplete[x1] in func_148833_a in S3APacketTabComplete
+[05:52:24] [Client thread/INFO]: Injecting ons3bpacketscoreboardobjective[x1] in func_148833_a in S3BPacketScoreboardObjective
+[05:52:24] [Client thread/INFO]: Injecting ons3cpacketupdatescore[x1] in func_148833_a in S3CPacketUpdateScore
+[05:52:24] [Client thread/INFO]: Injecting ons3dpacketdisplayscoreboard[x1] in func_148833_a in S3DPacketDisplayScoreboard
+[05:52:24] [Client thread/INFO]: Injecting ons3epacketteams[x1] in func_148833_a in S3EPacketTeams
+[05:52:24] [Client thread/INFO]: Injecting ons40packetdisconnect[x1] in func_148833_a in S40PacketDisconnect
+[05:52:24] [Client thread/INFO]: Injecting onc00packetkeepalive[x1] in func_148833_a in C00PacketKeepAlive
+[05:52:24] [Client thread/INFO]: Injecting onc01packetchatmessage[x1] in func_148833_a in C01PacketChatMessage
+[05:52:24] [Client thread/INFO]: Injecting onc02packetuseentity[x1] in func_148833_a in C02PacketUseEntity
+[05:52:24] [Client thread/INFO]: Injecting onc03packetplayer[x1] in func_148833_a in C03PacketPlayer
+[05:52:24] [Client thread/INFO]: Injecting onc04packetplayerposition[x1] in func_148833_a in C03PacketPlayer$C04PacketPlayerPosition
+[05:52:24] [Client thread/INFO]: Injecting onc05packetplayerlook[x1] in func_148833_a in C03PacketPlayer$C05PacketPlayerLook
+[05:52:24] [Client thread/INFO]: Injecting onc06packetplayerposlook[x1] in func_148833_a in C03PacketPlayer$C06PacketPlayerPosLook
+[05:52:24] [Client thread/INFO]: Injecting onc07packetplayerdigging[x1] in func_148833_a in C07PacketPlayerDigging
+[05:52:24] [Client thread/INFO]: Injecting onc08packetplayerblockplacement[x1] in func_148833_a in C08PacketPlayerBlockPlacement
+[05:52:24] [Client thread/INFO]: Injecting onc09packethelditemchange[x1] in func_148833_a in C09PacketHeldItemChange
+[05:52:24] [Client thread/INFO]: Injecting onc0apacketanimation[x1] in func_148833_a in C0APacketAnimation
+[05:52:24] [Client thread/INFO]: Injecting onc0bpacketentityaction[x1] in func_148833_a in C0BPacketEntityAction
+[05:52:24] [Client thread/INFO]: Injecting onc0cpacketinput[x1] in func_148833_a in C0CPacketInput
+[05:52:24] [Client thread/INFO]: Injecting onc0dpacketclosewindow[x1] in func_148833_a in C0DPacketCloseWindow
+[05:52:24] [Client thread/INFO]: Injecting onc0epacketclickwindow[x1] in func_148833_a in C0EPacketClickWindow
+[05:52:24] [Client thread/INFO]: Injecting onc0fpacketconfirmtransaction[x1] in func_148833_a in C0FPacketConfirmTransaction
+[05:52:24] [Client thread/INFO]: Injecting onc10packetcreativeinventoryaction[x1] in func_148833_a in C10PacketCreativeInventoryAction
+[05:52:24] [Client thread/INFO]: Injecting onc11packetenchantitem[x1] in func_148833_a in C11PacketEnchantItem
+[05:52:24] [Client thread/INFO]: Injecting onc12packetupdatesign[x1] in func_148833_a in C12PacketUpdateSign
+[05:52:24] [Client thread/INFO]: Injecting onc13packetplayerabilities[x1] in func_148833_a in C13PacketPlayerAbilities
+[05:52:24] [Client thread/INFO]: Injecting onc14packettabcomplete[x1] in func_148833_a in C14PacketTabComplete
+[05:52:24] [Client thread/INFO]: Injecting ons00packetserverinfo[x1] in func_148833_a in S00PacketServerInfo
+[05:52:24] [Client thread/INFO]: Injecting ons01packetpong[x1] in func_148833_a in S01PacketPong
+[05:52:24] [Client thread/INFO]: Injecting ons00packetdisconnect[x1] in func_148833_a in S00PacketDisconnect
+[05:52:24] [Client thread/INFO]: Injecting ons01packetencryptionrequest[x1] in func_148833_a in S01PacketEncryptionRequest
+[05:52:24] [Client thread/INFO]: Injecting ons02packetloginsuccess[x1] in func_148833_a in S02PacketLoginSuccess
+[05:52:24] [Client thread/INFO]: Injecting onc01packetencryptionresponse[x1] in func_148833_a in C01PacketEncryptionResponse
+[05:52:29] [Client thread/INFO]: Injecting prerendergui[x1] in func_78480_b in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting onrenderhud[x1] in func_78480_b in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting postrenderhud[x1] in func_78480_b in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting onrenderworld[x1] in func_78471_a in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting onsetupcameratransform[x1] in func_78471_a in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting postrenderentities[x1] in func_78471_a in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer
+[05:52:29] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer
+[05:53:02] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[05:53:02] [Client thread/INFO]: Successfully generated event handler proxy class with 118 handlers(s) and 118 total invokations
+[05:53:04] [Client thread/INFO]: JInput Component Registry is initialising...
+[05:53:04] [Client thread/INFO]: Inspecting Mouse controller Razer Arctosa on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Keyboard controller Razer Arctosa on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Keyboard controller Razer DeathAdder 3.5G on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Mouse controller Razer DeathAdder 3.5G on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Gamepad controller Controller (XBOX 360 For Windows) on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Unknown controller Sensei Raw Gaming Mouse on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Unknown controller SteelSeries Sensei [RAW] on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Unknown controller Sensei Raw Gaming Mouse on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Unknown controller Razer Arctosa on Unknown...
+[05:53:04] [Client thread/INFO]: Inspecting Unknown controller Razer Arctosa on Unknown...
+[05:53:04] [Client thread/INFO]: JInput Component Registry initialised, found 13 controller(s) 595 component(s)
+[05:53:04] [Client thread/INFO]: LiteLoader begin INIT...
+[05:53:04] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[05:53:04] [Client thread/INFO]: Injecting external mods into class path...
+[05:53:04] [Client thread/INFO]: Injecting external mods into class path...
+[05:53:04] [Client thread/INFO]: Discovering mods on class path...
+[05:53:04] [Client thread/INFO]: Searching J:\MultiMC5\jars\NewLaunch.jar...
+[05:53:04] [Client thread/INFO]: Discovering mods in valid mod files...
+[05:53:04] [Client thread/INFO]: Searching J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\mod_noteblockdisplay_1.3.2_mc1.7.10.litemod...
+[05:53:04] [Client thread/INFO]: Found 1 potential matches
+[05:53:04] [Client thread/INFO]: Discovering mods in valid mod files...
+[05:53:04] [Client thread/INFO]: Mod class discovery completed
+[05:53:04] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[05:53:04] [Client thread/INFO]: Inhibiting sound handler reload
+[05:53:04] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientEvents for API LiteLoader core API
+[05:53:04] [Client thread/INFO]: Injecting onplayerlogin[x1] in func_72377_c in ServerConfigurationManager
+[05:53:04] [Client thread/INFO]: Injecting onplayerlogout[x1] in func_72367_e in ServerConfigurationManager
+[05:53:04] [Client thread/INFO]: Injecting onspawnplayer[x1] in func_148545_a in ServerConfigurationManager
+[05:53:04] [Client thread/INFO]: Injecting onrespawnplayer[x1] in func_72368_a in ServerConfigurationManager
+[05:53:04] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[05:53:04] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[05:53:04] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[05:53:04] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[05:53:04] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[05:53:04] [Client thread/INFO]: Loading mod from xaero.mods.noteblockdisplay.LiteModNoteBlockDisplay
+[05:53:04] [Client thread/INFO]: Baking listener list for ModLoadObserver with 0 listeners
+[05:53:04] [Client thread/INFO]: Successfully added mod Note Block Display version 1.3.2
+[05:53:04] [Client thread/INFO]: Adding "J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\mod_noteblockdisplay_1.3.2_mc1.7.10.litemod" to active resource pack set
+[05:53:04] [Client thread/INFO]: Setting up "mod_noteblockdisplay_1.3.2_mc1.7.10.litemod" as mod resource pack with identifier "Note Block Display"
+[05:53:04] [Client thread/INFO]: Successfully added "J:\MultiMC5\instances\Minecraft 1.7.10 World World\minecraft\mods\mod_noteblockdisplay_1.3.2_mc1.7.10.litemod" to active resource pack set
+[05:53:04] [Client thread/INFO]: Initialising mod Note Block Display version 1.3.2
+[05:53:04] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[05:54:07] [Client thread/INFO]: Calling late init for mod Note Block Display
+[05:54:07] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[05:54:07] [Client thread/INFO]: Sound handler reload inhibit removed
+[05:54:07] [Client thread/INFO]: Reloading sound handler
+[05:54:08] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for RenderListener with 0 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for Tickable with 1 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[05:54:09] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[05:54:31] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[05:54:37] [Netty Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[05:54:37] [Server thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy$2
+[05:54:37] [Server thread/INFO]: Successfully generated event handler proxy class with 4 handlers(s) and 4 total invokations
+[05:54:37] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[05:54:38] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
