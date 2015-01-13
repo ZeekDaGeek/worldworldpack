@@ -1,3 +1,29 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME:META". Example (for stone):
 # stone:0
+blockWarded:0
+blockCosmeticOpaque:2
+blockArcaneDoor:0
+blockArcaneDoor:1
+blockArcaneDoor:2
+blockArcaneDoor:3
+blockArcaneDoor:4
+blockArcaneDoor:5
+blockArcaneDoor:6
+blockArcaneDoor:7
+blockArcaneDoor:8
+blockArcaneDoor:9
+blockArcaneDoor:10
+blockArcaneDoor:11
+blockArcaneDoor:12
+blockArcaneDoor:13
+blockArcaneDoor:14
+blockArcaneDoor:15
+woodenDevice:2
+woodenDevice:3
+blockAiry:0
+StrongBox:1
+StrongBox:2
+StrongBox:3
+StrongBox:4
+MachineBlock:13
