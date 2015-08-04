@@ -61,3 +61,10 @@ recipes.addShaped(<Botany:trowelDiamond>, [
 		[null, <minecraft:diamond>],
 		[<minecraft:stick>, null]
 	]);
+
+// Add recipe for RemoteIO's Remote Inventory
+recipes.addShaped(<RIO:tile.remote_inventory>,[
+		[null, <RIO:item.wireless_transmitter>, null],
+		[<ore:dustRedstone>, <ore:blockGold>, <ore:dustRedstone>],
+		[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
+	]);
