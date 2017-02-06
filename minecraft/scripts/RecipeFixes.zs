@@ -17,6 +17,7 @@ recipes.addShaped(<Mariculture:metals:5>, [
 	]);
 
 // Changing the Botany trowels to not conflict with chisels -- By ZeroTheShinigami 
+/*
 recipes.removeShaped(<Botany:trowelWood>);
 recipes.removeShaped(<Botany:trowelStone>);
 recipes.removeShaped(<Botany:trowelIron>);
@@ -24,8 +25,10 @@ recipes.removeShaped(<Botany:trowelDiamond>);
 recipes.removeShaped(<Botany:trowelGold>);
 recipes.removeShaped(<chisel:chisel>);
 recipes.removeShaped(<chisel:diamondChisel>);
+*/
        
 // Readd Chisels
+/*
 recipes.addShaped(<chisel:diamondChisel>, [
 		[<minecraft:diamond>, null],
 		[null,<minecraft:stick>]
@@ -61,6 +64,7 @@ recipes.addShaped(<Botany:trowelDiamond>, [
 		[null, <minecraft:diamond>],
 		[<minecraft:stick>, null]
 	]);
+*/
 
 // Add recipe for RemoteIO's Remote Inventory
 recipes.addShaped(<RIO:tile.remote_inventory>,[
@@ -68,3 +72,16 @@ recipes.addShaped(<RIO:tile.remote_inventory>,[
 		[<ore:dustRedstone>, <ore:blockGold>, <ore:dustRedstone>],
 		[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
 	]);
+
+// Fix Colorful Lamp recipe conflict.
+recipes.removeShaped(<computronics:computronics.colorfulLamp>);
+
+recipes.addShaped(<computronics:computronics.colorfulLamp>, [
+		[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
+		[<ore:blockGlass>, <ore:dustGlowstone>, <ore:blockGlass>],
+		[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
+	]);
+
+// Fix Diamond Chip recipe
+recipes.removeShapeless(<OpenComputers:item:111>);
+recipes.addShapeless(<OpenComputers:item:111> * 8, [<ore:gemDiamond>, <ore:gemDiamond>]);

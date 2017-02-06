@@ -219,10 +219,10 @@ recipes.addShaped(<ThermalFoundation:material:73>,
 recipes.addShapeless(<ThermalFoundation:material:73> * 9, [<ore:blockBronze>]);
 recipes.addShapeless(<ThermalFoundation:material:105> * 9, [<ore:ingotBronze>]);
 
-furnace.remove(<ore:ingotBronze>, <ore:oreBronze>);
+//furnace.remove(<ore:ingotBronze>, <ore:oreBronze>);
 furnace.addRecipe(<ThermalFoundation:material:73>, <ore:oreBronze>);
 
-furnace.remove(<ore:ingotBronze>, <ore:dustBronze>);
+//furnace.remove(<ore:ingotBronze>, <ore:dustBronze>);
 furnace.addRecipe(<ThermalFoundation:material:73>, <ore:dustBronze>);
 
 /*
@@ -266,10 +266,10 @@ recipes.addShaped(<Railcraft:ingot:0>,
 recipes.addShapeless(<Railcraft:ingot:0> * 9, [<ore:blockSteel>]);
 recipes.addShapeless(<Railcraft:nugget:1> * 9, [<ore:ingotSteel>]);
 
-furnace.remove(<ore:ingotSteel>, <ore:oreSteel>);
+//furnace.remove(<ore:ingotSteel>, <ore:oreSteel>);
 furnace.addRecipe(<Railcraft:ingot:0>, <ore:oreSteel>);
 
-furnace.remove(<ore:ingotSteel>, <ore:dustSteel>);
+//furnace.remove(<ore:ingotSteel>, <ore:dustSteel>);
 furnace.addRecipe(<Railcraft:ingot:0>, <ore:dustSteel>);
 
 /*
