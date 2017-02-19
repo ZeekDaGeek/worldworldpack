@@ -85,3 +85,15 @@ recipes.addShaped(<computronics:computronics.colorfulLamp>, [
 // Fix Diamond Chip recipe
 recipes.removeShapeless(<OpenComputers:item:111>);
 recipes.addShapeless(<OpenComputers:item:111> * 8, [<ore:gemDiamond>, <ore:gemDiamond>]);
+
+// Fix Weather Crystal recipe
+recipes.removeShapeless(<EnderIO:itemMaterial:10>);
+recipes.addShaped(<EnderIO:itemMaterial:10>, [
+        [null, <EnderIO:itemMaterial:5>, null],
+        [<EnderIO:itemMaterial:6>, <EnderIO:itemMaterial:8>, <EnderIO:itemMaterial:6>],
+        [null, <EnderIO:itemMaterial:5>, null]
+    ]);
+
+// Remove flour as shaped recipe (Should be ground)
+recipes.removeShaped(<Natura:barleyFood:1>);
+recipes.removeShaped(<Natura:barleyFood:2>);
